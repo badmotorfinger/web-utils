@@ -1,0 +1,160 @@
+﻿@import '_variables.scss';
+
+.horizontal {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.verticle {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.space-around {
+    justify-content: space-around;
+}
+
+.pointy {
+    cursor: pointer;
+}
+
+.faded {
+    color: #696969;
+    opacity: 0.8;
+}
+
+.italic {
+    font-style: italic;
+    font-family: 'NoeText-RegularItalic' !important;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.invisible-opaque {
+    opacity: 0;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.underline {
+    border-bottom: 1px solid black;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.inline {
+    display: inline;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.block {
+    display: block;
+}
+
+.text-size1 { font-size: $text-size-1; }
+.text-size2 { font-size: $text-size-2; }
+.text-size3 { font-size: $text-size-3; }
+.text-size4 { font-size: $text-size-4; }
+
+.primary-text-color {
+    color: $primary-color !important;
+}
+
+.secondary-text-color {
+    color: $secondary-color;
+}
+
+.tertiary-text-color {
+    color: $tertiary-color;
+}
+
+a, a:visited, a:hover, a:active {
+    color: inherit;
+}
+
+.secondary-text-color:hover {
+    color: $secondary-color;
+    text-decoration: underline;
+}
+
+.primary-text-color:hover {
+    color: $primary-color;
+    text-decoration: underline;
+}
+
+.top-shadow {
+    box-shadow: -6px 0 16px -6px rgba(68, 68, 68, 0.9);
+}
+
+.fadeIn {
+    animation-name: fadeIn;
+    animation-duration: 0.8s;
+}
+
+.fadeOut {
+    animation-name: fadeOut;
+    animation-duration: 0.8s;
+}
+
+.fadeIn-fast {
+    animation-name: fadeIn;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+.fadeOut-fast {
+    animation-name: fadeOut;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+.fadeIn-slow {
+    animation-name: fadeIn;
+    animation-duration: 1.5s;
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideUp {
+    from {
+        top:0;
+    }
+    to {
+        top:unset;
+    }
+}
+
+@import "screensizes/_utility-screensizes.scss";

@@ -1,0 +1,34 @@
+@import '_variables.scss';
+@import '_normalize.scss';
+@import '_fonts.scss';
+@import '_mixins.scss';
+@import '_spacing.scss';
+@import '_utility.scss';
+
+body {
+    font-family: "NoeText-Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    color: black;
+    font-size: 62.5%;
+}
+
+h1 {
+    font-size: $text-size-1;
+    line-height: $text-size-1;
+}
+
+h2 {
+    font-size: $text-size-2;
+    line-height: $text-size-2;
+}
+
+h3 {
+    font-size: $text-size-3;
+    line-height: $text-size-3;
+}
+
+h4 {
+    font-size: $text-size-4;
+    line-height: $text-size-4;
+    font-weight: normal;
+}

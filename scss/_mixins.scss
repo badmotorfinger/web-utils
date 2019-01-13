@@ -1,0 +1,42 @@
+﻿@import "_variables.scss";
+
+@mixin custom-content-width($custom-spacing) {
+    width: calc(100% - #{$custom-spacing * 2});
+}
+
+@mixin content-width() {
+    width: calc(100% - #{$spacing-max});
+}
+
+@mixin width() {
+    width: calc(100vw - #{$body-padding * 2});
+}
+
+@mixin for-size($range) {
+
+    @if $range == phone-only {
+        @media (max-width: #{$phone-upper-boundary - 1}) {
+            @content;
+        }
+    }
+    @else if $range == tablet-portrait-up {
+        @media (min-width: $phone-upper-boundary) {
+            @content;
+        }
+    }
+    @else if $range == tablet-landscape-up {
+        @media (min-width: $tablet-portrait-upper-boundary) {
+            @content;
+        }
+    }
+    @else if $range == desktop-up {
+        @media (min-width: $tablet-landscape-upper-boundary) {
+            @content;
+        }
+    }
+    @else if $range == big-desktop-up {
+        @media (min-width: $desktop-upper-boundary) {
+            @content;
+        }
+    }
+}

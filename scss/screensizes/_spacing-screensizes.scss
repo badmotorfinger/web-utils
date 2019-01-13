@@ -1,0 +1,19 @@
+﻿@import "../_variables.scss";
+
+@media only screen and (min-width: $medium-breakpoint) {
+    .pr10-md {
+        padding-right: $spacing-max;
+    }
+
+    .mt0-md {
+        margin-top: 0;
+    }
+
+    .lineheight-unset-md {
+        line-height: unset;
+    }
+
+    .lineheight-1-md {
+        line-height: $heading-line-height;
+    }
+}

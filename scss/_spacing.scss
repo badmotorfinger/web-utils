@@ -1,0 +1,162 @@
+﻿@import '_variables.scss';
+
+/* Padding All */
+.p0 {
+    padding: 0;
+}
+
+.p3 {
+    padding: 8px;
+}
+
+.p4 {
+    padding: 16px;
+}
+
+.p5 {
+    padding: $spacing-max
+}
+
+/* Margin All */
+.m0 {
+    margin: 0
+}
+
+/* Padding Left */
+.pl1 {
+    padding-left: 2px;
+}
+
+.pl2 {
+    padding-left: 4px;
+}
+
+.pl3 {
+    padding-left: 8px;
+}
+
+.pl4 {
+    padding-left: 16px;
+}
+
+.pl5 {
+    padding-left: $spacing-max;
+}
+
+/* Padding Right */
+.pr1 {
+    padding-right: 2px;
+}
+
+.pr2 {
+    padding-right: 4px;
+}
+
+.pr3 {
+    padding-right: 8px;
+}
+
+.pr4 {
+    padding-right: 16px;
+}
+
+.pr5 {
+    padding-right: $spacing-max;
+}
+
+/* Padding Top */
+.pt9 {
+    padding-top: 18px;
+}
+
+.pt5 {
+    padding-top: $spacing-max
+}
+
+/* Margin Left */
+.ml1 {
+    margin-left: 2px;
+}
+
+.ml2 {
+    margin-left: 4px;
+}
+
+.ml3 {
+    margin-left: 8px;
+}
+
+.ml4 {
+    margin-left: 16px;
+}
+
+.ml5 {
+    margin-left: $spacing-max;
+}
+
+/* Padding Bottom */
+.pb5 {
+    padding-bottom: $spacing-max;
+}
+
+/* Margin Right */
+.mr1 {
+    margin-right: 2px;
+}
+
+.mr2 {
+    margin-right: 4px;
+}
+
+.mr3 {
+    margin-right: 8px;
+}
+
+.mr4 {
+    margin-right: 16px;
+}
+
+.mr5 {
+    margin-right: $spacing-max;
+}
+
+
+/* Margin Top */
+.mt0 {
+    margin-top: 0;
+}
+
+.mt2 {
+    margin-top: 4px;
+}
+
+.mt3 {
+    margin-top: 8px;
+}
+
+.mt4 {
+    margin-top: 16px;
+}
+
+.mt5 {
+    margin-top: $spacing-max
+}
+
+/* Margin Bottom */
+.mb2 {
+    margin-bottom: 4px;
+}
+
+.mb3 {
+    margin-bottom: 8px;
+}
+
+.mb4 {
+    margin-bottom: 16px;
+}
+
+.mb5 {
+    margin-bottom: $spacing-max;
+}
+
+@import "screensizes/_spacing-screensizes.scss";

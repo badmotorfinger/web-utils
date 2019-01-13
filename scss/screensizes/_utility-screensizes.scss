@@ -1,0 +1,17 @@
+﻿@import "../_variables.scss";
+@import "../_mixins.scss";
+
+@include for-size(phone-only) {
+}
+
+@include for-size(tablet-portrait-up) {
+}
+
+@include for-size(tablet-landscape-up) {
+}
+
+@include for-size(desktop-up) {
+}
+
+@include for-size(big-desktop-up) {
+}
